@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Resource</string>
+
+    <!--错误码相关-->
+    <string name="msg_no_network">网络无连接，请检查网络设置</string>
+    <string name="msg_timeout">请求超时，请稍候再试</string>
+
+    <!--错误码相关，服务端定义-->
+    <string name="msg_system_error">系统异常</string>
+    <string name="msg_sign_error">验签失败</string>
+    <string name="msg_params_error">验参失败</string>
+
+
+    <!--上拉加载下拉刷新-->
+    <string name="text_load_more">上拉加载更多</string>
+    <string name="text_load_pull">下拉即可刷新</string>
+    <string name="text_load_release">释放即可刷新</string>
+    <string name="text_refreshing">正在刷新&#8230;</string>
+    <string name="text_refresh_done">刷新完成</string>
+    <string name="text_loading">正在加载&#8230;</string>
+    <string name="text_load_done">加载完成</string>
+    <string name="text_load_no_data">没有更多了~</string>
+    <string name="text_load_in_the_end">已经到底了</string>
+
+    <!--短信验证码控件-->
+    <string name="text_tips_sms_send_success">短信发送成功，请注意查收</string>
+
+    <!---->
+    <string name="text_digits_num_code">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890</string>
+    <string name="text_digits_ID_card">xX1234567890</string>
+    <string name="text_digits_num">1234567890</string>
+</resources>

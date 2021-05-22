@@ -492,9 +492,9 @@ public class DatePickerView extends LinearLayout implements PickerView.OnSelectL
     }
 
     /**
-     * 设置日期控件是否显示时和分
+     * 设置日期控件是否显示 日 、时、分
      */
-    public void setCanShowPreciseTime(boolean canShowPreciseTime) {
+    public void setCanShowPreciseDay(boolean canShowPreciseTime) {
         if (canShowPreciseTime) {
             initScrollUnit();
             mDayPickerView.setVisibility(View.VISIBLE);
@@ -507,6 +507,26 @@ public class DatePickerView extends LinearLayout implements PickerView.OnSelectL
             initScrollUnit(SCROLL_UNIT_HOUR, SCROLL_UNIT_MINUTE);
             mDayPickerView.setVisibility(View.GONE);
             mDayUnitTv.setVisibility(View.GONE);
+            mHourPickerView.setVisibility(View.GONE);
+            mHourUnitTv.setVisibility(View.GONE);
+            mMinutePickerView.setVisibility(View.GONE);
+            mMinuteUnitTv.setVisibility(View.GONE);
+        }
+        mCanShowPreciseTime = canShowPreciseTime;
+    }
+
+    /**
+     * 设置日期控件是否显示时和分
+     */
+    public void setCanShowPreciseTime(boolean canShowPreciseTime) {
+        if (canShowPreciseTime) {
+            initScrollUnit();
+            mHourPickerView.setVisibility(View.VISIBLE);
+            mHourUnitTv.setVisibility(View.VISIBLE);
+            mMinutePickerView.setVisibility(View.VISIBLE);
+            mMinuteUnitTv.setVisibility(View.VISIBLE);
+        } else {
+            initScrollUnit(SCROLL_UNIT_HOUR, SCROLL_UNIT_MINUTE);
             mHourPickerView.setVisibility(View.GONE);
             mHourUnitTv.setVisibility(View.GONE);
             mMinutePickerView.setVisibility(View.GONE);

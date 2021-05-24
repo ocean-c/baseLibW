@@ -10,7 +10,9 @@ public class BaseListEntity {
 
     public static final int TYPE_ITEM = 0;
     public static final int TYPE_ITEM_ONE = 1;
-    public static final int TYPE_ITEM_NO_DATA = 2;
+    public static final int TYPE_ITEM_TWO = 2;
+    public static final int TYPE_ITEM_THREE = 3;
+    public static final int TYPE_ITEM_NO_DATA = 4;
 
     public int getItemType() {
         return itemType;

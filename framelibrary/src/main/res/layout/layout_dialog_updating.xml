@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="发现新版本"
-                android:textColor="@color/color_333333"
+                android:textColor="@color/color_white"
                 android:textSize="@dimen/text_18" />
 
             <TextView
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/main_3"
-                android:textColor="@color/color_333333"
+                android:textColor="@color/color_white"
                 android:textSize="@dimen/text_17" />
         </LinearLayout>
 
@@ -52,8 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingMultiplier="1.2"
-                android:minHeight="@dimen/main_105"
-                android:textColor="@color/color_333333"
+                android:minHeight="@dimen/main_75"
+                android:textColor="@color/color_white"
                 android:textSize="@dimen/text_14" />
         </ScrollView>
 
@@ -61,7 +61,7 @@
             android:id="@+id/view_dialog_update_bottom"
             android:layout_width="match_parent"
             android:layout_height="@dimen/main_1"
-            android:layout_marginTop="@dimen/main_35"
+            android:layout_marginTop="@dimen/main_10"
             android:background="@color/color_d8d8d8"
             android:visibility="visible" />
 

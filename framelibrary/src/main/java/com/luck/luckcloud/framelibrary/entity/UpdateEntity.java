@@ -31,12 +31,21 @@ public class UpdateEntity {
     private String versionDes;// 新版本描述
     private String version;// 新的版本号
     private String updateUrl;// APK下载链接
+    private boolean isForce = false; // 强制更新
+
+    public boolean isForce() {
+        return isForce;
+    }
+
+    public void setForce(boolean force) {
+        isForce = force;
+    }
 
     /**
      * 是否强制更新
      */
     public boolean isForceUpdate() {
-        return true;
+        return isForce;
     }
 
     public String getVersion() {

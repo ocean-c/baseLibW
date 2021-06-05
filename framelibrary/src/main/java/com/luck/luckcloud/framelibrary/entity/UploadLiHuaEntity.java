@@ -8,7 +8,7 @@ public class UploadLiHuaEntity {
     public UploadLiHuaEntity() {
     }
 
-    public UploadLiHuaEntity(String gid, String symbol,int count) {
+    public UploadLiHuaEntity(String gid, String symbol, int count) {
         this.gid = gid;
         this.symbol = symbol;
         this.count = count;
@@ -47,6 +47,6 @@ public class UploadLiHuaEntity {
     }
 
     public void addSymbol(String symbol) {
-        this.symbol += "," + symbol;
+        this.symbol += symbol + ",";
     }
 }

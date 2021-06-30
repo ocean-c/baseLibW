@@ -71,7 +71,7 @@ public abstract class BaseListActivity<ShowData extends BaseListEntity, Request>
      */
     protected class MyAdapter extends CommonRecyclerAdapter<ShowData> {
 
-        MyAdapter(Context context, List<ShowData> data, MultiTypeSupport<ShowData> multiTypeSupport) {
+        public MyAdapter(Context context, List<ShowData> data, MultiTypeSupport<ShowData> multiTypeSupport) {
             super(context, data, multiTypeSupport);
         }
 

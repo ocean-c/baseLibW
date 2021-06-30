@@ -157,6 +157,7 @@ public abstract class BaseListActivity<ShowData extends BaseListEntity, Request>
      * 数据失败后统一处理
      */
     protected void onFailData(boolean isRefresh) {
+
         if (mBinder == null) {
             return;
         }

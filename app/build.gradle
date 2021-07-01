@@ -35,4 +35,5 @@ dependencies {
     androidTestImplementation(dependencies.testEspresso) {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
+    implementation project(":framelibrary")
 }

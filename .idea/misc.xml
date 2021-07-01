@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="framelibrary/src/main/res/layout/layout_dialog_updating.xml" value="0.22327898550724637" />
+        <entry key="resource/src/main/res/drawable/bg_cancel_btn.xml" value="0.2234375" />
+        <entry key="resource/src/main/res/drawable/bg_et_cursor_drawable.xml" value="0.2234375" />
+        <entry key="resource/src/main/res/drawable/bg_main_dialog.xml" value="0.2234375" />
+        <entry key="resource/src/main/res/drawable/bg_shadow_08.xml" value="0.2234375" />
+        <entry key="resource/src/main/res/drawable/color_main_page_icon_text.xml" value="0.2234375" />
+        <entry key="resource/src/main/res/drawable/color_title_tab_text.xml" value="0.2234375" />
+        <entry key="resource/src/main/res/drawable/selector_common_btn.xml" value="0.2234375" />
       </map>
     </option>
   </component>

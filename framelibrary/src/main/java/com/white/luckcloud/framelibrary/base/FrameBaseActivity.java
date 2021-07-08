@@ -23,6 +23,7 @@ import com.white.luckcloud.framelibrary.navigationBar.DefaultNavigationBar;
 
 public abstract class FrameBaseActivity extends BaseActivity {
     protected DefaultNavigationBar mTitleView;
+
     private static final String TAG = FrameBaseActivity.class.getSimpleName();
 
     @Override

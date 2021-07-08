@@ -20,7 +20,7 @@
     <!-- SplashActivity theme. 代码设置了，暂时未用到-->
     <style name="SplashActivityTheme" parent="AppTheme">
         <!-- Activity背景 -->
-        <item name="android:windowBackground">@color/color_111624</item>
+        <item name="android:windowBackground">@color/color_white</item>
         <!--无标题-->
         <item name="android:windowNoTitle">true</item>
         <!--无ActionBar-->

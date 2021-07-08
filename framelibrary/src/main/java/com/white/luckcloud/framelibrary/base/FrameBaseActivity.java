@@ -84,7 +84,7 @@ public abstract class FrameBaseActivity extends BaseActivity {
      * 标题文字
      */
     protected int titleBgColor() {
-        return R.color.color_111624;
+        return R.color.color_white;
     }
 
     @Override

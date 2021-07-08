@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="framelibrary/src/main/res/layout/activity_base_list.xml" value="0.25815217391304346" />
         <entry key="framelibrary/src/main/res/layout/layout_dialog_updating.xml" value="0.22327898550724637" />
         <entry key="resource/src/main/res/drawable/bg_cancel_btn.xml" value="0.2234375" />
         <entry key="resource/src/main/res/drawable/bg_et_cursor_drawable.xml" value="0.2234375" />

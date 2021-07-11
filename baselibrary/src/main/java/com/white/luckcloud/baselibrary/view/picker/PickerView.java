@@ -118,13 +118,13 @@ public class PickerView extends View {
         mPaint.setStyle(Style.FILL);
         mPaint.setTextAlign(Align.CENTER);
         if (mLightColor == 0) {
-            mLightColor = ContextCompat.getColor(mContext, R.color.color_white);
+            mLightColor = ContextCompat.getColor(mContext, R.color.color_111624);
         }
         if (mDarkColor == 0) {
             mDarkColor = ContextCompat.getColor(mContext, R.color.color_adadad);
         }
         if (mItemLineColor == 0) {
-            mItemLineColor = ContextCompat.getColor(mContext, R.color.color_f5f5f5);
+            mItemLineColor = ContextCompat.getColor(mContext, R.color.color_111624);
         }
     }
 

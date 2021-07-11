@@ -32,14 +32,14 @@ public abstract class FrameBaseActivity extends BaseActivity {
             mTitleView = new DefaultNavigationBar.Builder(mContext)
                     .setTitle(titleId())
                     .setTitleBgColorRes(titleBgColor())
-                    .setTitleTextColor(R.color.color_white)
+                    .setTitleTextColor(R.color.color_111624)
                     .build();
         }
         if (!StringUtils.isEmpty(titleStr())) {
             mTitleView = new DefaultNavigationBar.Builder(mContext)
                     .setTitle(titleStr())
                     .setTitleBgColorRes(titleBgColor())
-                    .setTitleTextColor(R.color.color_white)
+                    .setTitleTextColor(R.color.color_111624)
                     .build();
         }
     }

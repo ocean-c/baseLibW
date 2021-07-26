@@ -20,11 +20,11 @@ public class HttpRequestUtils {
     }
 
     // 线上环境
-    private static final String SERVICE_ADDRESS_BASE_ONLINE = "http://8.212.12.209:8080/user";
+    private static final String SERVICE_ADDRESS_BASE_ONLINE = "http://www.luokeyun.top/user";
     // 测试环境
-    private static final String SERVICE_ADDRESS_BASE_TEST = "http://8.212.12.209:8080/user";
+    private static final String SERVICE_ADDRESS_BASE_TEST = "http://www.luokeyun.top/user";
     //图片文件前缀
-    public static final String SERVICE_ADDRESS_IMAGE = "http://8.212.12.209:8888/";
+    public static final String SERVICE_ADDRESS_IMAGE = "http://www.luokeyun.top/";
 
     /**
      * 根据是否Debug模式获取地址前缀

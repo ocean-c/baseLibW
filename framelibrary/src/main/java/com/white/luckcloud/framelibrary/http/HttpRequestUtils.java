@@ -20,11 +20,11 @@ public class HttpRequestUtils {
     }
 
     // 线上环境
-    private static final String SERVICE_ADDRESS_BASE_ONLINE = "http://www.luokeyun.top/user";
+    private static final String SERVICE_ADDRESS_BASE_ONLINE = "http://www.wincloud168.com/user";
     // 测试环境
-    private static final String SERVICE_ADDRESS_BASE_TEST = "http://www.luokeyun.top/user";
+    private static final String SERVICE_ADDRESS_BASE_TEST = "http://www.wincloud168.com/user";
     //图片文件前缀
-    public static final String SERVICE_ADDRESS_IMAGE = "http://www.luokeyun.top/";
+    public static final String SERVICE_ADDRESS_IMAGE = "http://www.wincloud168.com/";
 
     /**
      * 根据是否Debug模式获取地址前缀

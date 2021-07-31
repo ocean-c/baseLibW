@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/main_10"
             android:text="@string/text_load_more"
-            android:textColor="@color/color_white"
+            android:textColor="@color/color_111624"
             android:textSize="@dimen/text_15" />
     </LinearLayout>
 </RelativeLayout>

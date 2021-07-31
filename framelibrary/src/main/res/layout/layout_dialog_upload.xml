@@ -35,7 +35,7 @@
                 android:layout_marginTop="@dimen/main_10"
                 android:gravity="center"
                 android:text="@string/text_dialog_uploading"
-                android:textColor="@color/color_white"
+                android:textColor="@color/color_111624"
                 android:textSize="@dimen/text_14" />
         </LinearLayout>
     </RelativeLayout>

@@ -13,7 +13,7 @@ public class Constants {
     // 与H5交互的JS中元素名称
     public static final String H5_JS_ELEMENT = "app";
     // 安卓7.0Uri获取相关Provider名字
-    public static final String FILE_CONTENT_FILE_PROVIDER = "com.luck.luckcloud.fileProvider";
+    public static final String FILE_CONTENT_FILE_PROVIDER = "com.white.luckcloud.fileProvider";
     //    // ==================常量======================//
 
     // ==================通知相关======================//

@@ -12,8 +12,8 @@ public class PageRouteConfig {
     public static final String PAGE_LOGIN = "/main/LoginActivity";
 
     // 登录页的全类名，用于页面关闭的时候排除页面
-    public static final String CLASS_LOGIN_PAGE = "com.luck.luckcloud.ui.activity.LoginActivity";
+    public static final String CLASS_LOGIN_PAGE = "com.white.luckcloud.ui.activity.LoginActivity";
     // 主页的全类名，用于页面关闭的时候排除页面
-    public static final String CLASS_MAIN_PAGE = "com.luck.luckcloud.ui.activity.MainActivity";
+    public static final String CLASS_MAIN_PAGE = "com.white.luckcloud.ui.activity.MainActivity";
 
 }

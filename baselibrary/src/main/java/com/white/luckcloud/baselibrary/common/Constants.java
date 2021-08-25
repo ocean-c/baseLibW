@@ -14,11 +14,11 @@ public class Constants {
     }
 
     public static void init() {
-        LogUtils.setLogMark("LuckCloud");// 日志的Mark
+        LogUtils.setLogMark("WinCloud");// 日志的Mark
     }
 
     // 是否debug模式=======》打包上线改为 false
-    public static final boolean isDebug = false;
+    public static boolean isDebug = false;
     // 是否显示日志=======》打包上线改为 false
     public static final boolean isShowLog = true;
     // 支付宝是否沙箱模式=======》打包上线改为false

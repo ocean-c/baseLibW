@@ -25,6 +25,7 @@ import com.white.luckcloud.framelibrary.commom.HttpConfig;
 import com.white.luckcloud.framelibrary.entity.HttpResponseEntity;
 import com.white.luckcloud.framelibrary.entity.UpdateEntity;
 import com.white.luckcloud.framelibrary.entity.User;
+import com.white.luckcloud.framelibrary.http.HttpRequestUtils;
 import com.white.luckcloud.framelibrary.http.gson.GSonUtils;
 import com.white.luckcloud.framelibrary.update.UpdateUtils;
 import com.white.luckcloud.framelibrary.utils.ErrorCodeTips;
